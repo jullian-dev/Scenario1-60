@@ -1,7 +1,7 @@
 // Smooth letter-by-letter fade-in
 function changeText() {
   const text = document.getElementById("hero-text");
-  const sentence = "Jullian Frenz Labarca / BSIT-1F";
+  const sentence = "Jullian Labarca / BSIT-1F";
   text.innerHTML = "";
 
   for (let i = 0; i < sentence.length; i++) {
